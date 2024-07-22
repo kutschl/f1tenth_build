@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Power_board_teensy V2.0.PrjPcb]
+   Generated File[Power_board_teensy V2.0.TXT]
+   Generated File[Power_board_teensy V2.0.LDP]
+   Generated File[Power_board_teensy V2.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:37:48 PM On 1/28/2019

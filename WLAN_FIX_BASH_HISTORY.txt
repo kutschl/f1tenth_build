@@ -1,0 +1,351 @@
+    1  sudo shutdown now
+    2  ifconfig
+    3  sudo nmcli d
+    4  sudo nmcli r wifi on
+    5  sudo nmcli d
+    6  sudo shutdown now
+    7  ssh kutschl0@knoppers
+    8  sudo nmcli d
+    9  ifconnfig
+   10  sudo ifconfig
+   11  sudo apt install wifi
+   12  sudo apt update
+   13  sudo apt full-update
+   14  sudo apt full-upgrade
+   15  sudo reboot
+   16  nmcli d
+   17  sudo ip link
+   18  sudo service network-manager restart
+   19  lsmod
+   20  iwconfig
+   21  iwlist
+   22  wifi
+   23  sudo apt install wireless-tools
+   24  sudo apt install wpasupplicant
+   25  iwconfig
+   26  sudo rfkill unblock all
+   27  iwconfig
+   28  sudo apt update
+   29  sudo apt install firefox
+   30  sudo apt install chromium
+   31  sudo apt install firefoxx
+   32  sudo apt install firefox
+   33  sudo apt autoremove
+   34  sudo apt-get install firefox
+   35  iwconfig
+   36  sudo shutdown now
+   37  iwconfig
+   38  lspci 
+   39  lspci | grep -i network
+   40  sudo apt update
+   41  sudo apt upgrade
+   42  lspci | grep -i network
+   43  sudo apt install firmware-linux
+   44  nmcli d
+   45  nmcli d wifi list
+   46  nmcli device show
+   47  lshw -C network
+   48  lspci
+   49  sudo apt install pcmciautils
+   50  lspci
+   51  nmcli
+   52  nmlci d
+   53  nmcli d
+   54  ifconfig
+   55  sudo shutdown now
+   56  nmcli d
+   57  lspci -vvv
+   58  inxi -Nn
+   59  uname -r
+   60  sudo apt-get dist-upgrade
+   61  sudo apt install tzdata
+   62  sudo apt-get update
+   63  sudo apt upgradable
+   64  sudo apt update
+   65  sudo apt list --upgradable
+   66  sudo do-release-upgrade
+   67  sudo reboot
+   68  ifconfig
+   69  sudo systemctl restart NetworkManager.service
+   70  ifconfig
+   71  nmcli
+   72  lshw -C network
+   73  sudo apt install lshw
+   74  lshw -C network
+   75  sudo apt reinstall linux-modules-extra-5.15.0-75-generic
+   76  ifconfig
+   77  sudo systemctl restart NetworkManager.service
+   78  ifconfig
+   79  lshw -C network
+   80  sudo apt-get install linux-backports-modules-jaunty
+   81  sudo reboot now
+   82  ifconfig
+   83  sudo apt install linux-generic-hwe-22.04
+   84  sudo reboot now
+   85  sudo apt list --upgradable
+   86  ls /dev
+   87  cd net
+   88  cd /dev
+   89  cd net
+   90  ls
+   91  cd ..
+   92  ls
+   93  cd ..
+   94  cd sys
+   95  cd class 
+   96  ifconfig
+   97  lshw -C network
+   98  sudo apt clean
+   99  sudo apt update
+  100  sudo apt full-upgrade 
+  101  sudo apt autoremove --purge
+  102  lspci -nnk -d::0200
+  103  lshw -C network
+  104  sudo apt install linux-generic-hwe-22.04 linux-firmware
+  105  lspci -v | grep -iA 6 wireless
+  106  ifconfig
+  107  cd iwlwifi-cc-46.3cfab8da.0/
+  108  sudo cp iwlwifi-cc-a0-46.ucode /lib/firmware
+  109  sudo reboot now
+  110  sudo apt install git
+  111  sudo apt install nano
+  112  sudo apt install pip3
+  113  sudo apt install python3-pip
+  114  udo fallocate -l 4G /var/swapfile
+  115  ~
+  116  udo fallocate -l 4G /var/swapfile
+  117  sudo fallocate -l 4G /var/swapfile
+  118  sudo chmod 600 /var/swapfile
+  119  sudo mkswap /var/swapfile
+  120  sudo swapon /var/swapfile
+  121  sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
+  122  git clone https://github.com/jetsonhacks/logitech-f710-module
+  123  cd logitech-f710-module
+  124  ./install-module.sh
+  125  cd ..
+  126  ls
+  127  rm -rf logitech-f710-module/
+  128  ls
+  129  sudo apt install bluetooth
+  130  /etc/init.d/bluetooth status
+  131  /etc/init.d/bluetooth start 
+  132  bluetoothctl
+  133  sudo apt update
+  134  sudo apt install evtest
+  135  sudo apt update
+  136  sudo apt list --upgradable
+  137  sudo apt list upgrade
+  138  sudo apt upgrade
+  139  sudo pip install ds4drv
+  140  sudo ds4drv
+  141  sudo apt install jstest-gtk
+  142  sudo -i
+  143  sudo adevadm control --reload-rules
+  144  sudo udevadm control --reload-rules
+  145  sudo udevadm trigger
+  146  locale
+  147  sudo apt install software-properties-common
+  148  sudo add-apt-repository universe
+  149  sudo apt update && sudo apt install curl -y
+  150  sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+  151  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+  152  sudo apt update
+  153  sudo apt upgrade
+  154  sudo apt install ros-humble-desktop
+  155  sudo apt install ros-dev-tools
+  156  sudo apt install python3-colcon-common-extensions
+  157  cd $HOME && mkdir -p f1tenth_ws/src && cd f1tenth_ws
+  158  colcon build
+  159  ls
+  160  cd src
+  161  git clone https://github.com/kutschl/f1tenth_system.git
+  162  cd f1tenth_system
+  163  git submodule update --init --force --remote
+  164  cd $HOME/f1tenth_ws
+  165  rosdep update
+  166  sudo rosdep init
+  167  sudo rosdep updaet
+  168  sudo rosdep update
+  169  rosdep install --from-paths src -i -y
+  170  rosdep update
+  171  rosdep install --from-paths src -i -y
+  172  rosdep install --from-paths src -i -y --rosdistro humble
+  173  colcon build
+  174  source/opt/ros/humble/setup.bash
+  175  source opt/ros/humble/setup.bash
+  176  source /opt/ros/humble/setup.bash
+  177  colcon build
+  178  echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+  179  echo "source $HOME/f1tenth_ws/install/setup.bash" >> ~/.bashrc
+  180  exit
+  181  cd $HOME/f1tenth_ws && colcon build
+  182  cd $HOME/f1tenth_ws && ros2 launch f1tenth_stack bringup_launch.py
+  183  ls
+  184  cd ..
+  185  ls
+  186  sudo shutdown now
+  187  ifconfig
+  188  lshw -C network
+  189  bluetoothctl
+  190  sudo modprobe iwlwifi
+  191  sudo updatedb
+  192  sudo apt install updatedb
+  193  locate iwlwifi.ko
+  194  sudo modprobe -r iwlwifi
+  195  lshw -C Network
+  196  rfkill list all
+  197  modinfo iwlwifi | grep file
+  198  dmesg | grep iwl
+  199  sudo dmesg | grep iwl
+  200  sudo dmesg
+  201  uname -r
+  202  lshw -C Network
+  203  ls /lib/firmware/
+  204  ls
+  205  ls iwlwifi-cc-46.3cfab8da.0/
+  206  ls -la /lib/firmware/
+  207  ls /lib/firmware/
+  208  ls
+  209  sudo lshw -c network
+  210  ip a
+  211  nmtui
+  212  sudo apt install linux-modules-exta
+  213  sudo apt install linux-modules-extra
+  214  uname -a
+  215  sudo apt install linux-generic
+  216  ifconfig
+  217  iwconfig
+  218  uname -r
+  219  sudo apt update
+  220  sudo apt install linux-modules-extra-5.15.0-99-generic
+  221  lspci
+  222  nmcli dev status
+  223  sudo dpkg -s linux-modules-extra-5.15.0-53-generic | grep Status
+  224  sudo apt install linux-modules-extra-5.15.0-53-generic
+  225  sudo apt-cache search linux-modules-extra
+  226  uname -r
+  227  sudo apt install linux-modules-extra-5.15.0-1020-nvidia-tegra
+  228  sudo apt-cache search linux-modules-extra generic
+  229  sudo apt-cache search linux-modules-extra tegra
+  230  sudo apt install linux-modules-extra-5.15.0-1020-nvidia-tegra
+  231  ifconfig
+  232  sudo apt update
+  233  nmcli dev status
+  234  sudo service network-manager restart
+  235  sudo apt install network-manager
+  236  sudo systemctl restart systemd-networkd
+  237  nmcli general status
+  238  ip a
+  239  sudo ifdown wifi0
+  240  sudo service networkmanager restart
+  241  sudo service networkmanager start
+  242  sudo service NetworkManager restart
+  243  ip a
+  244  ifconfig
+  245  sudo dpkg -s linux-modules-extra-$(uname -r) | grep Status 
+  246  sudo apt-cache search linux-nvidia-tegra
+  247  sudo apt install linux-nvidia-tegra
+  248  sudo dpkg -s linux-modules-extra-$(uname -r) | grep Status 
+  249  sudo apt-cache search linux modules tegra extra
+  250  sudo apt update
+  251  sudo apt install linux-modules-extra-5.15.0-1020-nvidia-tegra
+  252  uname -r
+  253  ifconfig
+  254  sudo apt clean
+  255  sudo apt update
+  256  sudo apt full-upgrade
+  257  sudo apt autoremove --purge
+  258  lspci
+  259  sudo apt update
+  260  sudo apt install wpasupplicant wireless-tools
+  261  modinfo iwlwifi | grep iwlwifi-cc
+  262  lshw -C network
+  263  modinfo iwlwifi | grep iwlwifi-cc
+  264  sudo apt install iwlwifi
+  265  sudo apt update && sudo apt install firmware-iwlwifi
+  266  sudo apt update && sudo apt install firmware-iw1wifi
+  267  sudo apt-cache search iwl
+  268  sudo apt-cache search wifi
+  269  sudo apt-cache search firmware wifi
+  270  sudo apt-cache search firmware iwlwifi
+  271  lsmod | grep iwlwifi
+  272  sudo modpobe iwlwifi
+  273  sudo modprobe iwlwifi
+  274  lspci -nnk | grep -A2 0280
+  275  sudo apt update
+  276  sudo apt install git build-essential
+  277  sudo apt-cache search iwlwifi
+  278  sudo apt install backport-iwlwifi-dkms
+  279  sudo apt update
+  280  ifconfig
+  281  sudo modprobe iwlwifi
+  282  lspci -nnk | grep 0280 -A3
+  283  rfkill list all
+  284  dmesg | grep iwl
+  285  sudo modprobe -r iwlwifi
+  286  sudo modprobe iwlwifi
+  287  lsmod | grep iwl
+  288  iwconfig
+  289  ifconfig
+  290  sudo nmcli d           // show interface name of wifi adapter
+  291  nmcli
+  292  nmcli d
+  293  nmcli r wifi on
+  294  sudo nmcli r wifi on
+  295  sudo nmcli d wifi list
+  296  sudo nmcli d
+  297  iwconfig
+  298  rfkill list all
+  299  modprobe iwl
+  300  modprobe iwlwifi
+  301  lsmod | grep iwl
+  302  modprobe -r iwlwifi
+  303  sudo modprobe -r iwlwifi
+  304  lsmod | grep iwl
+  305  sudo modprobe iwfwifi
+  306  sudo modprobe iwlwifi
+  307  lsmod | grep iwl
+  308  iwconfig
+  309  ifconfig
+  310  bluetoothctl
+  311  history
+  312  history | grep network
+  313  history | grep Network
+  314  sudo service NetworkManager restart
+  315  iwconfig
+  316  ifconfig
+  317  iwconfig
+  318  lshw -C network
+  319  rfkill list all
+  320  sudo ifconfig wlan0 up
+  321  ifconfig
+  322  iwconfig
+  323  nmcli d
+  324  nmcli connection up wlan0
+  325  nmcli 
+  326  nmlci 
+  327  nmcli wlan0
+  328  nmcli
+  329  sudo rmmod iwlmvm iwlwifi && sudo modprobe iwlwifi
+  330  iwconfig
+  331  ip link
+  332  nmcli device
+  333  sudo apt install iwd
+  334  sudo iwd help
+  335  sudo apt remove iwd
+  336  lshw -C Network
+  337  sudo nano /boot/wpa_supplicant.conf
+  338  sudo touch /boot/wpa_supplicant.conf
+  339  sudo nano /boot/wpa_supplicant.conf
+  340  sudo reboot
+  341  ifconfig
+  342  iwconfig
+  343  ifconfig
+  344  nmcli
+  345  nmcli d
+  346  ip
+  347  ip a
+  348  ip -a
+  349  exit
+  350  ls
+  351  history

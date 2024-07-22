@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=MAIN_BATT Pin=JP1-1
+Removed Pin From Net: NetName=MAIN_BATT Pin=JP1-2
+Removed Pin From Net: NetName=MAIN_BATT Pin=JP1-3
+Removed Pin From Net: NetName=MAIN_BATT Pin=JP1-4
+Removed Pin From Net: NetName=GND_BATT Pin=JP1-7
+Removed Pin From Net: NetName=GND_BATT Pin=JP1-8
+Removed Pin From Net: NetName=GND_BATT Pin=JP1-9
+Removed Pin From Net: NetName=GND_BATT Pin=JP1-10
+Removed Pin From Net: NetName=MAIN_BATT Pin=U$2-B+
+Removed Pin From Net: NetName=GND_BATT Pin=U$2-B-
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=JP1
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=U$2
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=U$4
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=U$5

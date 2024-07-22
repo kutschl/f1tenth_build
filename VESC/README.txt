@@ -1,0 +1,21 @@
+CABLES
+A -> WHITE
+B -> YELLOW
+C -> BLUE
+
+
+PARAMETER FOR PID CONTROLLER
+*2024/01*
+vesc6_upenn_foc.xml
+
+*2023/12*
+Speed PID Kp  0.00200
+Speed PID Ki  0.00090
+Speed PID Kd  0.00030
+Speed PID Kd Filter  0.700
+
+*F1TENTH*
+Speed PID Kp  0.00900
+Speed PID Ki  0.00003
+Speed PID Kd  0.00080
+Speed PID Kd Filter  0.500

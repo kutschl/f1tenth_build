@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=LB Pin=U$1-17
+Removed Pin From Net: NetName=LF Pin=U$1-18
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=CON1
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=CON2
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=CON3
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=CON4
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=D2
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=D3
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=LED1
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=R1
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=R2
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=R3
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=SW1
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=SW2
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=U$1
+Removed Member From Class: ClassName=Power_board_teensy V2.0 Member=X8
+Change Room Name: Old Name=Power_board_teensy V2.1 New Name=Power_board_teensy V2.0

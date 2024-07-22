@@ -1,0 +1,229 @@
+*************************************************************
+FileName = Power_board_teensy V2.0.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Pad Master
+      File : Power_board_teensy V2.0.GPB
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : Power_board_teensy V2.0.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Power_board_teensy V2.0.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Power_board_teensy V2.0.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : Power_board_teensy V2.0.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Power_board_teensy V2.0.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Power_board_teensy V2.0.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Power_board_teensy V2.0.GPT
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Power_board_teensy V2.0.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Power_board_teensy V2.0.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Power_board_teensy V2.0.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : Power_board_teensy V2.0.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D30
+    D31
+    D33
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
+
