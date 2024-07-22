@@ -2,7 +2,7 @@
 
 For building the F1TENTH car, use the detailed step-by-step instructions of the [F1TENTH documentation](https://f1tenth.readthedocs.io/en/foxy_test/). If you prefer visual guidance, there are several build videos from F1TENTH available on [YouTube](https://www.youtube.com/watch?v=iyOtTtlHcvw).
 
-This following Bill of Materials (BOM) lists all products and materials required for assembling a F1TENTH car based on a NVIDIA Jetson Orin NX and Hokuyo Lidar: [BOM Orin NX.xlsx](BOM%20Orin%20NX.xlsx).
+This following Bill of Materials (BOM) lists all products and materials required for assembling a F1TENTH car based on a NVIDIA Jetson Orin NX and Hokuyo UST 20-LX Lidar: [BOM Orin NX.xlsx](BOM%20Orin%20NX.xlsx).
 
 # Installation Guide 
 
