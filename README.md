@@ -226,6 +226,14 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
+```bash
+# Create docker group
+sudo groupadd docker
+# Add user
+sudo usermod -aG docker $USER
+newgrp docker
+```
+
 ## Installing ROS2 Humble
 
 Follow the official [ROS2 Humble installation guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
