@@ -180,7 +180,7 @@ Change the method from ```Automatic (DHCP)``` to ```Manual``` and enter the foll
 - Netmask: ```255.255.255.0```
 - Gateway: ```192.168.0.1```
 
-Call the connection ```Hokuyo UST-20LX````.
+Call the connection ```Hokuyo UST-20LX```.
 
 ## Installing Docker
 
