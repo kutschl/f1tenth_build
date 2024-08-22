@@ -226,6 +226,7 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
+Add Docker group and user
 ```bash
 # Create docker group
 sudo groupadd docker
