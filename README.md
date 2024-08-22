@@ -167,6 +167,21 @@ sudo apt-get install jstest-gtk
    sudo udevadm info --name=<KERNEL> --attribute-walk
    ```
 
+## Setting up the ethernet connection for the LiDAR
+
+Connect the Hokuyo LiDAR with the Jetson using an ethernet cable and ensure that the LidAR is powered on.
+Open network settings in the Linux GUI on the Jetson. 
+In the network settings, you should see your ethernet connection (e.g., Wired Connection 1).
+Click the gear icon next to your ethernet connection to open the settings.
+In the "Wired Settings" dialog, go to the IPv4 tab.
+Change the method from ```Automatic (DHCP)``` to ```Manual``` and enter the following settings:
+
+- Address: ```192.168.0.15```
+- Netmask: ```255.255.255.0```
+- Gateway: ```192.168.0.1```
+
+Call the connection ```Hokuyo UST-20LX````.
+
 ## Installing Docker
 
 Set up Docker's apt repository.
