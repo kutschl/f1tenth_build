@@ -182,6 +182,11 @@ Change the method from ```Automatic (DHCP)``` to ```Manual``` and enter the foll
 
 Call the connection ```Hokuyo UST-20LX```.
 
+Test the connection with:
+```bash
+ping 192.168.0.10
+```
+
 ## Installing Docker
 
 Set up Docker's apt repository.
