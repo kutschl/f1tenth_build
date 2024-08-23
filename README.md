@@ -32,8 +32,6 @@ sudo reboot
 
 ## Setting up WLAN
 
-To fix possible WLAN issues after flashing Jetpack 6.0, refer to this recorded [Bash History](WLAN_FIX_BASH_HISTORY.txt) and this [Ubuntu Forum Thread](https://askubuntu.com/questions/990363/how-to-load-iwlwifi-driver).
-
 ```bash
 # Install packages for wifi and reboot
 sudo apt install backport-iwlwifi-dkms
@@ -55,6 +53,8 @@ sudo nmcli d wifi connect SSID password PW
 # Show IP adress
 ip addr show dev wlan0
 ```
+
+To fix possible WLAN issues after flashing Jetpack 6.0, refer to this recorded [Bash History](WLAN_FIX_BASH_HISTORY.txt) and this [Ubuntu Forum Thread](https://askubuntu.com/questions/990363/how-to-load-iwlwifi-driver).
 
 ## Installing Essential Packages
 
