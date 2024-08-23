@@ -64,6 +64,7 @@ Install basic tools and utilities.
 sudo apt install git 
 sudo apt install nano 
 sudo apt install python3-pip
+sudo apt install firefox
 ```
 
 ## Create Swapfile for Memory-Intensive Tasks
@@ -115,7 +116,7 @@ Follow these instructions to set up the Sony Dualshock 4 controller. For detaile
 sudo pip install ds4drv
 
 # Run ds4drv
-sudo ds4drv
+ds4drv
 
 # Hold the PS button and share button on the controller.
 
