@@ -93,8 +93,8 @@ cd logitech-f710-module
 ```bash
 # Install bluetooth package
 sudo apt install bluetooth
-/etc/init.d/bluetooth status
-/etc/init.d/bluetooth start
+/etc/init.d/bluetooth status # not necessary
+/etc/init.d/bluetooth start # not necessary
 
 # Adding bluetooth device
 bluetoothctl         # open new inner shell
