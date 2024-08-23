@@ -15,7 +15,20 @@ Follow the steps in the [Installation Instructions](https://docs.nvidia.com/sdk-
 
 For better understanding, you can use this [tutorial video](https://www.youtube.com/watch?v=Ucg5Zqm9ZMk&list=PLXYLzZ3XzIbhh73dPHczlCzDwtO1N42UG) that explains how to install the Jetpack software with the SDK Manager.
 
+## Connect with Network 
 
+Connect the Jetson with the host computer via Ethernet for an internet connection.
+You can also ask somebody in the HRL to register the Jetson in the internal network for a direct connection.
+
+## Update Packages and Reboot
+
+Ensure your system is up to date and perform a reboot to apply any necessary changes.
+
+```bash
+sudo apt update
+sudo apt full-upgrade
+sudo reboot
+```
 
 ## Setting up WLAN
 
@@ -37,16 +50,6 @@ sudo nmcli d wifi connect SSID password PW
 
 # Show IP adress
 ip addr show dev wlan0
-```
-
-## Update Packages and Reboot
-
-Ensure your system is up to date and perform a reboot to apply any necessary changes.
-
-```bash
-sudo apt update
-sudo apt full-upgrade
-sudo reboot
 ```
 
 ## Installing Essential Packages
