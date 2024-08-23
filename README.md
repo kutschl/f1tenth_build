@@ -2,7 +2,7 @@
 
 For building the F1TENTH car, use the detailed step-by-step instructions of the [F1TENTH documentation](https://f1tenth.readthedocs.io/en/foxy_test/). If you prefer visual guidance, there are several build videos from F1TENTH available on [YouTube](https://www.youtube.com/watch?v=iyOtTtlHcvw).
 
-This following Bill of Materials (BOM) lists all products and materials required for assembling a F1TENTH car based on a NVIDIA Jetson Orin NX and Hokuyo UST 20-LX Lidar: [BOM Orin NX.xlsx](BOM%20Orin%20NX.xlsx) | [BOM Orin NX.pdf](BOM%20Orin%20NX.pdf).
+This following Bill of Materials (BOM) lists all products and materials required for assembling a F1TENTH car based on a NVIDIA Jetson Orin NX and Hokuyo UST 20-LX LiDAR: [BOM Orin NX.xlsx](BOM%20Orin%20NX.xlsx) | [BOM Orin NX.pdf](BOM%20Orin%20NX.pdf).
 
 # Installation Guide 
 
@@ -115,7 +115,7 @@ sudo apt-get install jstest-gtk
 
 ## Adding Udev Rules
 
-1. **Hokuyo Lidar**
+1. **Hokuyo LiDAR (not necessary if LiDAR is connected via Ethernet**
 
    ```bash
    sudo -i
