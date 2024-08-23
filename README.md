@@ -164,8 +164,7 @@ sudo apt-get install jstest-gtk
 4. **Update Udev Rules**
 
    ```bash
-   sudo u
-   devadm control --reload-rules
+   sudo udevadm control --reload-rules
    sudo udevadm trigger
    ```
 
