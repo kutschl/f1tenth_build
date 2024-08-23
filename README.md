@@ -257,7 +257,40 @@ newgrp docker
 
 ## Installing ROS2 Humble
 
-Follow the official [ROS2 Humble installation guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
+Make sure you have a locale which supports UTF-8. If you are in a minimal environment (such as a docker container), the locale may be something minimal like POSIX. We test with the following settings. However, it should be fine if you’re using a different UTF-8 supported locale.
+```bash
+locale  # check for UTF-8
+
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+```
+
+You will need to add the ROS 2 apt repository to your system.
+```bash
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+sudo apt update && sudo apt install curl -y
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
+Install the ROS 2 packages
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install ros-humble-desktop
+```
+
+Set up automatically source ROS 2 in every new terminal session.
+```bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+```
+
+For more see the official [ROS2 Humble installation guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
 
 ## Installing Colcon
 
@@ -285,11 +318,3 @@ rosdep install --from-paths src -i -y --rosdistro humble
 colcon build
 ```
 
-## Sourcing Bash
-
-Automatically source ROS 2 and F1/10 workspace environments in every new terminal session.
-
-```bash
-echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-echo "source $HOME/f1tenth_ws/install/setup.bash" >> ~/.bashrc
-```
