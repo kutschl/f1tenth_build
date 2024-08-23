@@ -35,13 +35,13 @@ sudo reboot
 ```bash
 # Install packages for wifi and reboot
 sudo apt install backport-iwlwifi-dkms
-sudo reboot
-
-# Show interface name of wifi adapter
-sudo nmcli d      
+sudo reboot    
 
 # Turn wifi on
 sudo nmcli r wifi on
+
+# Show interface name of wifi adapter
+sudo nmcli d  
 
 # List wifi networks
 sudo nmcli d wifi list
