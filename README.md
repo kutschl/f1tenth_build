@@ -13,6 +13,9 @@ For setting up the NVIDIA Jetson Orin NX with ROS2 Humble on your F1TENTH robot,
 Start by flashing Jetpack 6.0 on your Jetson with [NVIDIA SDK Manager](https://developer.nvidia.com/sdk-manager).
 Follow the steps in the [Installation Instructions](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html) and force your Jetson device into **recovery mode**.
 
+For better understanding, you can use this [tutorial video](https://www.youtube.com/watch?v=Ucg5Zqm9ZMk&list=PLXYLzZ3XzIbhh73dPHczlCzDwtO1N42UG) that explains how to install the Jetpack software with the SDK Manager.
+
+
 
 ## Setting up WLAN
 
