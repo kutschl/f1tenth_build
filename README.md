@@ -122,6 +122,9 @@ ds4drv
 
 # Open joystick testing tool
 sudo apt-get install jstest-gtk
+
+# For testing, run:
+jstest /dev/input/js0
 ```
 
 ## Adding Udev Rules
